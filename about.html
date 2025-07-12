@@ -1,0 +1,221 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>நம்ம Truck</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      font-size: 20px;
+    }
+
+    .header {
+      height: 300px;
+      width: 1000px;
+      margin: 0 auto;
+    }
+
+    .h {
+      height: 250px;
+      width: 1000px;
+      background-color: rgba(206, 8, 8, 0.892);
+    }
+
+    .logo {
+      float: left;
+    }
+
+    .circular-logo {
+      position: relative;
+      left: 75px;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 50px;
+    }
+
+    .name {
+      height: 250px;
+      width: 700px;
+      float: right;
+      background-color:  #0a0111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .n {
+      color: #0000FF;
+      font-size: 32px;
+      font-weight: bold;
+      background-color: aliceblue;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .menu {
+      height: 50px;
+      width: 1000px;
+      background-color: #FFC0CB;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+
+    .menu ul {
+      list-style: none;
+    }
+
+    .menu ul li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    .menu ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+    }
+
+
+    .footer {
+      width: 1000px;
+      margin: 50px auto 0;
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .f {
+      font-size: 25px;
+      color: #FF0000;
+      background-color: #FFFF00;
+      padding: 10px;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+
+    .footer ul {
+      list-style: none;
+      padding-top: 10px;
+    }
+
+    .footer ul li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    .footer ul li a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <div class="header">
+    <div class="h">
+      <div class="logo">
+        <img src="imagess/nammaTruck.jpg" alt="Logo" class="circular-logo">
+      </div>
+      <div class="name">
+        <span class="n">நம்ம Truck</span>
+      </div>
+    </div>
+
+    <div class="menu">
+      <ul>
+        <li><a href="home.html">🏠 Home</a></li>
+        <li><a href="about.html">🍽 About</a></li>
+        <li><a href="service.html">🚚 Services</a></li>
+        <li><a href="register.html">🧾 Register</a></li>
+        <li><a href="#">☎ Contact</a></li>
+      </ul>
+    </div>
+  </div>
+<br>
+</br>
+  <!-- Main content placeholder -->
+  <center>
+   <div style="position: relative;height: 200px;width: 1000px; margin: 30px auto;display: inline;padding: 10px;">
+    <img src="imagess/meals.jpg" width="259" height="194">
+    <img src="imagess/friedrice.jpg" width="259" height="194">
+    <img src="imagess/paneer.jpg" width="259" height="194">
+</center>
+
+</div>
+   <div style="width: 1000px; margin: 30px auto; text-align: center;background-color: #ffb6c1;">
+    <h2>Welcome to நம்ம Truck!</h2>
+    </div>
+    <div style="width: 1000px; margin: 30px auto; text-align: center;background-color: #ffb6c1;">
+    <h2>About</h2>
+    </div>
+     <marquee direction="up">
+    <div style="position: relative; left: 500px;width: 1000px; margin: 30px auto;display: inline;padding: 10px; text-align: center;">
+      
+      <img src="imagess/POORI.jpg" width="259" height="194"
+       onmouseover="this.parentElement.parentElement.stop()"
+      onmouseout="this.parentElement.parentElement.start()">
+      <img src="imagess/paniyaram3.jpg" width="259" height="194">
+       <img src="imagess/naan.jpg" width="259" height="194">
+         
+      </div>
+   </marquee>
+      <br>
+      </br>
+     
+      <marquee direction="down">
+      <div style="position: relative;left: 500px; width: 1000px;margin: 30px auto;display: inline-block;padding: 10px;text-align: center;">
+      <img src="imagess/naan.jpg" width="259" height="194">
+      <img src="imagess/paneer.jpg" width="259" height="194">
+       <img src="imagess/paniyaram3.jpg" width="259" height="194">
+      </div>
+      </marquee>
+      <br>
+       
+      </br>
+      
+      
+
+  <div style="width: 1000px; margin: 30px auto; text-align: justify;font-family: 'Times New Roman', Times, serif;">
+    <section id="menu" style="padding: 40px; background-color: #fffaf0; text-align: center;">
+  <h2>🍽️ What We Serve</h2>
+  <h3>Signature Offerings:</h3>
+
+  <ul style="list-style: none; padding: 0; font-size: 18px; line-height: 2;">
+    <li>🌾 <strong>South Indian Meals</strong> – Sambar, Rasam, Poriyal, Curd Rice</li>
+    <li>🍛 <strong>Mini Tiffin Combos</strong> – Idli, Dosa, Pongal, Vada</li>
+    <li>🍔 <strong>Indian-style Fast Food</strong> – Veg Burger, Masala Sandwich, Paneer Wraps</li>
+    <li>🍜 <strong>Fried Rice & Noodles</strong> – With Indian-Chinese twist</li>
+    <li>🍢 <strong>Evening Snacks</strong> – Bajji, Samosa, Cutlet, Pakora</li>
+    <li>🥤 <strong>Coolers & Chaats</strong> – Lemon Soda, Pani Puri, Bhel Puri</li>
+  </ul>
+</section>
+
+    </div>
+
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="f">
+      &copy; 2025 நம்ம Truck
+    </div>
+    <ul>
+      <li><a href="#">📘 </a></li>
+      <li><a href="#">♾ </a></li>
+      <li><a href="#">📗 </a></li>
+      <li><a href="#">📮 </a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
